@@ -1,0 +1,26 @@
+{
+  "name": "tallbag-from-obs",
+  "version": "1.0.0",
+  "description": "Convert an observable to a tallbag listenable source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/tallbag-from-obs.git"
+  },
+  "main": "readme.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag",
+    "tallbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "shadow-callbag": "~1.0.0",
+    "symbol-observable": "^1.2.0"
+  }
+}
